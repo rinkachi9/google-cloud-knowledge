@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.ci-cd",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "developer-and-devops-tools",
+      "ci-cd"
+    ]
+  },
+  "map": {
+    "group": "ci-cd"
+  }
+}

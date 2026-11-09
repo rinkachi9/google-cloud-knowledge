@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.security-monitoring-and-auditing",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ]
+  },
+  "links": [
+    {
+      "to": "operations.cloud-logging",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.security-command-center",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "operations.operations-suite-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-audit-logs-overview",
+      "type": "documentation",
+      "title": "Cloud Audit Logs overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/logging/docs/audit",
+      "verified": false
+    },
+    {
+      "key": "aggregated-sinks",
+      "type": "documentation",
+      "title": "Aggregated sinks",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/logging/docs/export/aggregated_sinks",
+      "verified": false
+    },
+    {
+      "key": "security-log-analytics",
+      "type": "documentation",
+      "title": "Security log analytics",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/security-log-analytics",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}

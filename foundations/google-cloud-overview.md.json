@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "foundations.google-cloud-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "foundations"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.global-infrastructure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "compute.compute-services-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-cloud-products",
+      "type": "website",
+      "title": "Google Cloud products",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/products",
+      "verified": false
+    },
+    {
+      "key": "google-cloud-overview",
+      "type": "documentation",
+      "title": "Google Cloud overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "google-cloud-architecture-framework",
+      "type": "documentation",
+      "title": "Google Cloud Architecture Framework",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/architecture/framework",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "data-analytics.bigquery",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "data-analytics"
+    ]
+  },
+  "links": [
+    {
+      "to": "data-analytics.data-analytics-services-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bigquery-overview",
+      "type": "documentation",
+      "title": "BigQuery overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigquery/docs/introduction",
+      "verified": false
+    },
+    {
+      "key": "introduction-to-partitioned-tables",
+      "type": "documentation",
+      "title": "Introduction to partitioned tables",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigquery/docs/partitioned-tables",
+      "verified": false
+    },
+    {
+      "key": "bigquery-pricing",
+      "type": "website",
+      "title": "BigQuery pricing",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/bigquery/pricing",
+      "verified": false
+    },
+    {
+      "key": "dremel-interactive-analysis-of-web-scale-datasets",
+      "type": "paper",
+      "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+      "publisher": "Melnik and others",
+      "url": "https://research.google/pubs/dremel-interactive-analysis-of-web-scale-datasets-2/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-analytics"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "security-and-identity.threat-detection-and-posture.cloud-ids",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "security-and-identity",
+      "threat-detection-and-posture"
+    ],
+    "aliases": [
+      "IDS",
+      "Packet Mirroring"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.security-command-center",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.gcloud-cli-cheatsheet",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-ids-overview",
+      "type": "documentation",
+      "title": "Cloud IDS overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/intrusion-detection-system/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "packet-mirroring-overview",
+      "type": "documentation",
+      "title": "Packet Mirroring overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/packet-mirroring",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "threat-detection-and-posture"
+  }
+}

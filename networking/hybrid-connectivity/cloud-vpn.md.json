@@ -1,0 +1,57 @@
+{
+  "node": {
+    "id": "networking.hybrid-connectivity.cloud-vpn",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "networking",
+      "hybrid-connectivity"
+    ],
+    "aliases": [
+      "HA VPN",
+      "Cloud Router",
+      "IPsec"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.hybrid-connectivity.cloud-interconnect",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-vpn-overview",
+      "type": "documentation",
+      "title": "Cloud VPN overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/vpn/concepts/overview",
+      "verified": false
+    },
+    {
+      "key": "cloud-router-overview",
+      "type": "documentation",
+      "title": "Cloud Router overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/router/concepts/overview",
+      "verified": false
+    },
+    {
+      "key": "create-an-ha-vpn-gateway-to-a-peer-vpn-gateway",
+      "type": "documentation",
+      "title": "Create an HA VPN gateway to a peer VPN gateway",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "hybrid-connectivity"
+  }
+}

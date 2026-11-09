@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.securing-vms",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-google-access",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.service-accounts",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "shielded-vm",
+      "type": "documentation",
+      "title": "Shielded VM",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/compute/shielded-vm/docs/shielded-vm",
+      "verified": false
+    },
+    {
+      "key": "os-login",
+      "type": "documentation",
+      "title": "OS Login",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/compute/docs/oslogin",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}

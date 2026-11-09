@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.securing-applications",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.security-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.security-best-practices.ddos-mitigation",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "owasp-top-10",
+      "type": "standard",
+      "title": "OWASP Top 10",
+      "publisher": "OWASP Foundation",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "verified": false
+    },
+    {
+      "key": "identity-aware-proxy-overview",
+      "type": "documentation",
+      "title": "Identity-Aware Proxy overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iap/docs/concepts-overview",
+      "verified": false
+    },
+    {
+      "key": "secret-manager-overview",
+      "type": "documentation",
+      "title": "Secret Manager overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "beyondcorp-a-new-approach-to-enterprise-security",
+      "type": "paper",
+      "title": "BeyondCorp: A New Approach to Enterprise Security",
+      "publisher": "Ward and Beyer",
+      "url": "https://research.google/pubs/beyondcorp-a-new-approach-to-enterprise-security/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}

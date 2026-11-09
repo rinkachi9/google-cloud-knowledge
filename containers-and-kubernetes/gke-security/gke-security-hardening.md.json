@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.gke-security.gke-security-hardening",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "containers-and-kubernetes",
+      "gke-security"
+    ],
+    "aliases": [
+      "Pod Security Admission",
+      "PodSecurityPolicy",
+      "metadata concealment",
+      "legacy metadata endpoint"
+    ]
+  },
+  "links": [
+    {
+      "to": "containers-and-kubernetes.gke-networking",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.authentication-to-google-cloud-apis",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "containers-and-kubernetes.gke-security.binary-authorization",
+      "rel": "related"
+    },
+    {
+      "to": "containers-and-kubernetes.fleet-management.policy-controller",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.security-command-center",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.cft-scorecard",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "harden-your-cluster-s-security",
+      "type": "documentation",
+      "title": "Harden your cluster's security",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster",
+      "verified": false
+    },
+    {
+      "key": "pod-security-admission",
+      "type": "documentation",
+      "title": "Pod Security Admission",
+      "publisher": "Kubernetes documentation",
+      "url": "https://kubernetes.io/docs/concepts/security/pod-security-admission/",
+      "verified": false
+    },
+    {
+      "key": "protect-cluster-metadata",
+      "type": "documentation",
+      "title": "Protect cluster metadata",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/how-to/protecting-cluster-metadata",
+      "verified": false
+    },
+    {
+      "key": "cis-google-kubernetes-engine-benchmark",
+      "type": "standard",
+      "title": "CIS Google Kubernetes Engine Benchmark",
+      "publisher": "Center for Internet Security",
+      "url": "https://www.cisecurity.org/benchmark/kubernetes",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "gke-security"
+  }
+}

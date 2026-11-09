@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "foundations.gcloud-cli-cheatsheet",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "foundations"
+    ],
+    "aliases": [
+      "gcloud",
+      "gsutil"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.service-accounts",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-flow-logs",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.cloud-ids",
+      "rel": "related"
+    },
+    {
+      "to": "developer-and-devops-tools.infrastructure-as-code.terraform-on-google-cloud",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.authentication-to-google-cloud-apis",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gcloud-cli-reference",
+      "type": "documentation",
+      "title": "gcloud CLI reference",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sdk/gcloud/reference",
+      "verified": false
+    },
+    {
+      "key": "gcloud-cli-cheat-sheet",
+      "type": "documentation",
+      "title": "gcloud CLI cheat sheet",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sdk/docs/cheatsheet",
+      "verified": false
+    },
+    {
+      "key": "using-iap-for-tcp-forwarding",
+      "type": "documentation",
+      "title": "Using IAP for TCP forwarding",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iap/docs/using-tcp-forwarding",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

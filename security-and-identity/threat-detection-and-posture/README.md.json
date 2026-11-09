@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "security-and-identity.threat-detection-and-posture",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "security-and-identity",
+      "threat-detection-and-posture"
+    ]
+  },
+  "map": {
+    "group": "threat-detection-and-posture"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "networking.hybrid-connectivity",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "networking",
+      "hybrid-connectivity"
+    ]
+  },
+  "map": {
+    "group": "hybrid-connectivity"
+  }
+}

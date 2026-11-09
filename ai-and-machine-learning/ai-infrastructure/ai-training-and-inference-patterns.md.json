@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure.ai-training-and-inference-patterns",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 4,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-infrastructure-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-accelerators",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-storage-and-data",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vertex-ai-inference-overview",
+      "type": "documentation",
+      "title": "Vertex AI inference overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/predictions",
+      "verified": false
+    },
+    {
+      "key": "serve-open-models-on-gke",
+      "type": "documentation",
+      "title": "Serve open models on GKE",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/machine-learning/inference",
+      "verified": false
+    },
+    {
+      "key": "rag-reference-architectures",
+      "type": "documentation",
+      "title": "RAG reference architectures",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/rag-reference-architectures",
+      "verified": false
+    },
+    {
+      "key": "cloud-run-gpu-best-practices",
+      "type": "documentation",
+      "title": "Cloud Run GPU best practices",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/docs/configuring/services/gpu-best-practices",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "networking.load-balancing.network-load-balancers",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "networking",
+      "load-balancing"
+    ],
+    "aliases": [
+      "NLB",
+      "TCP proxy",
+      "passthrough load balancer"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.load-balancing.application-load-balancers",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "containers-and-kubernetes.gke-networking",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "network-load-balancer-overview",
+      "type": "documentation",
+      "title": "Network Load Balancer overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/network/networklb-backend-service",
+      "verified": false
+    },
+    {
+      "key": "external-passthrough-network-load-balancer-overview",
+      "type": "documentation",
+      "title": "External passthrough Network Load Balancer overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/network/networklb-backend-service",
+      "verified": false
+    },
+    {
+      "key": "internal-passthrough-network-load-balancer-overview",
+      "type": "documentation",
+      "title": "Internal passthrough Network Load Balancer overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/internal",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "load-balancing"
+  }
+}

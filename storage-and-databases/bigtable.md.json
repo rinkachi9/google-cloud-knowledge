@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "storage-and-databases.bigtable",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "storage-and-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.storage-and-database-services-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bigtable-overview",
+      "type": "documentation",
+      "title": "Bigtable overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigtable/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "schema-design-best-practices",
+      "type": "documentation",
+      "title": "Schema design best practices",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigtable/docs/schema-design",
+      "verified": false
+    },
+    {
+      "key": "bigtable-a-distributed-storage-system-for-structured-data",
+      "type": "paper",
+      "title": "Bigtable: A Distributed Storage System for Structured Data",
+      "publisher": "Chang and others",
+      "url": "https://research.google/pubs/bigtable-a-distributed-storage-system-for-structured-data/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "networking.vpc.private-service-connect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "networking",
+      "vpc"
+    ],
+    "aliases": [
+      "PSC"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-network-peering-and-shared-vpc",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "integration-and-apis.apigee",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "private-service-connect-overview",
+      "type": "documentation",
+      "title": "Private Service Connect overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/private-service-connect",
+      "verified": false
+    },
+    {
+      "key": "publish-services-by-using-private-service-connect",
+      "type": "documentation",
+      "title": "Publish services by using Private Service Connect",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/configure-private-service-connect-producer",
+      "verified": false
+    },
+    {
+      "key": "access-google-apis-through-endpoints",
+      "type": "documentation",
+      "title": "Access Google APIs through endpoints",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/configure-private-service-connect-apis",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

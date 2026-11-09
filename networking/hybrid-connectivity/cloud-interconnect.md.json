@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "networking.hybrid-connectivity.cloud-interconnect",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "networking",
+      "hybrid-connectivity"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.hybrid-connectivity.cloud-vpn",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-interconnect-overview",
+      "type": "documentation",
+      "title": "Cloud Interconnect overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/overview",
+      "verified": false
+    },
+    {
+      "key": "dedicated-interconnect-overview",
+      "type": "documentation",
+      "title": "Dedicated Interconnect overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/dedicated-overview",
+      "verified": false
+    },
+    {
+      "key": "partner-interconnect-overview",
+      "type": "documentation",
+      "title": "Partner Interconnect overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/partner-overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "hybrid-connectivity"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "hybrid-and-multicloud.hybrid-and-multicloud-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "hybrid-and-multicloud"
+    ],
+    "aliases": [
+      "Anthos",
+      "GKE Enterprise",
+      "BigQuery Omni"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.hybrid-connectivity.cloud-interconnect",
+      "rel": "related"
+    },
+    {
+      "to": "networking.hybrid-connectivity.cloud-vpn",
+      "rel": "related"
+    },
+    {
+      "to": "containers-and-kubernetes.fleet-management.cloud-service-mesh",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gke-enterprise-overview",
+      "type": "documentation",
+      "title": "GKE Enterprise overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs",
+      "verified": false
+    },
+    {
+      "key": "bigquery-omni-introduction",
+      "type": "documentation",
+      "title": "BigQuery Omni introduction",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigquery/docs/omni-introduction",
+      "verified": false
+    },
+    {
+      "key": "migrate-to-virtual-machines-overview",
+      "type": "documentation",
+      "title": "Migrate to Virtual Machines overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/migrate/virtual-machines/docs/5.0",
+      "verified": false
+    },
+    {
+      "key": "hybrid-and-multicloud-architecture-patterns",
+      "type": "documentation",
+      "title": "Hybrid and multicloud architecture patterns",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/hybrid-multicloud-patterns-and-practices",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "hybrid-and-multicloud"
+  }
+}

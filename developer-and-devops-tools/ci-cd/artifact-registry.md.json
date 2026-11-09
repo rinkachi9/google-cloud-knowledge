@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.ci-cd.artifact-registry",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "developer-and-devops-tools",
+      "ci-cd"
+    ],
+    "aliases": [
+      "Container Registry",
+      "gcr.io"
+    ]
+  },
+  "links": [
+    {
+      "to": "developer-and-devops-tools.devops-tools-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "artifact-registry-overview",
+      "type": "documentation",
+      "title": "Artifact Registry overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/artifact-registry/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "cleanup-policies",
+      "type": "documentation",
+      "title": "Cleanup policies",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/artifact-registry/docs/repositories/cleanup-policy",
+      "verified": false
+    },
+    {
+      "key": "transition-from-container-registry",
+      "type": "documentation",
+      "title": "Transition from Container Registry",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/artifact-registry/docs/transition/transition-from-gcr",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ci-cd"
+  }
+}

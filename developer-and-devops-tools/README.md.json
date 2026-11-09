@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "developer-and-devops-tools"
+    ]
+  },
+  "map": {
+    "group": "developer-and-devops-tools"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "networking.load-balancing",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "networking",
+      "load-balancing"
+    ]
+  },
+  "map": {
+    "group": "load-balancing"
+  }
+}

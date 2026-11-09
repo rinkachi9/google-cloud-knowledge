@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "networking.vpc.vpc-flow-logs",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "networking",
+      "vpc"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "operations.cloud-logging",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-flow-logs",
+      "type": "documentation",
+      "title": "VPC Flow Logs",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/flow-logs",
+      "verified": false
+    },
+    {
+      "key": "use-vpc-flow-logs",
+      "type": "documentation",
+      "title": "Use VPC Flow Logs",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/using-flow-logs",
+      "verified": false
+    },
+    {
+      "key": "firewall-rules-logging",
+      "type": "documentation",
+      "title": "Firewall Rules Logging",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firewall/docs/firewall-rules-logging",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

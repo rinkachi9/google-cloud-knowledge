@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "storage-and-databases.firestore",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "storage-and-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.storage-and-database-services-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "firestore-overview",
+      "type": "documentation",
+      "title": "Firestore overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firestore/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-firestore",
+      "type": "documentation",
+      "title": "Best practices for Firestore",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firestore/docs/best-practices",
+      "verified": false
+    },
+    {
+      "key": "get-started-with-security-rules",
+      "type": "documentation",
+      "title": "Get started with Security Rules",
+      "publisher": "Firebase documentation",
+      "url": "https://firebase.google.com/docs/firestore/security/get-started",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

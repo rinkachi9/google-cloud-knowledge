@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.infrastructure-as-code",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "developer-and-devops-tools",
+      "infrastructure-as-code"
+    ]
+  },
+  "map": {
+    "group": "infrastructure-as-code"
+  }
+}

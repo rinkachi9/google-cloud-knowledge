@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.fleet-management.gke-fleet-and-hub",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "containers-and-kubernetes",
+      "fleet-management"
+    ],
+    "aliases": [
+      "GKE Hub",
+      "fleet",
+      "Connect Agent"
+    ]
+  },
+  "links": [
+    {
+      "to": "containers-and-kubernetes.gke-security.gke-security-hardening",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fleet-management-overview",
+      "type": "documentation",
+      "title": "Fleet management overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs",
+      "verified": false
+    },
+    {
+      "key": "fleet-requirements-and-best-practices",
+      "type": "documentation",
+      "title": "Fleet requirements and best practices",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/fleet-concepts",
+      "verified": false
+    },
+    {
+      "key": "connect-gateway",
+      "type": "documentation",
+      "title": "Connect gateway",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/enterprise/multicluster-management/gateway",
+      "verified": false
+    },
+    {
+      "key": "nist-sp-800-207-zero-trust-architecture",
+      "type": "standard",
+      "title": "NIST SP 800-207 Zero Trust Architecture",
+      "publisher": "NIST",
+      "url": "https://csrc.nist.gov/pubs/sp/800/207/final",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fleet-management"
+  }
+}

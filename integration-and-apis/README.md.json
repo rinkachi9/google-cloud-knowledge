@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "integration-and-apis",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "integration-and-apis"
+    ]
+  },
+  "map": {
+    "group": "integration-and-apis"
+  }
+}

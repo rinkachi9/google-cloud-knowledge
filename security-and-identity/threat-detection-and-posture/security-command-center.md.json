@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "security-and-identity.threat-detection-and-posture.security-command-center",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "security-and-identity",
+      "threat-detection-and-posture"
+    ],
+    "aliases": [
+      "SCC",
+      "Security Health Analytics",
+      "Event Threat Detection"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "operations.cloud-logging",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "security-command-center-overview",
+      "type": "documentation",
+      "title": "Security Command Center overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/security-command-center/docs/security-command-center-overview",
+      "verified": false
+    },
+    {
+      "key": "security-health-analytics-findings",
+      "type": "documentation",
+      "title": "Security Health Analytics findings",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/security-command-center/docs/concepts-vulnerabilities-findings",
+      "verified": false
+    },
+    {
+      "key": "set-up-finding-notifications",
+      "type": "documentation",
+      "title": "Set up finding notifications",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/security-command-center/docs/how-to-notifications",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "threat-detection-and-posture"
+  }
+}

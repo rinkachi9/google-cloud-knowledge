@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "compute",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "compute"
+    ]
+  },
+  "map": {
+    "group": "compute"
+  }
+}

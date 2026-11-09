@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "security-and-identity",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "security-and-identity"
+    ]
+  },
+  "map": {
+    "group": "security-and-identity"
+  }
+}

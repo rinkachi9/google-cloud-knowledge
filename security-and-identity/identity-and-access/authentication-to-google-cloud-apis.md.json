@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "security-and-identity.identity-and-access.authentication-to-google-cloud-apis",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "security-and-identity",
+      "identity-and-access"
+    ],
+    "aliases": [
+      "ADC",
+      "Application Default Credentials",
+      "Workload Identity Federation"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.identity-and-access.service-accounts",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "authentication-methods-at-google",
+      "type": "documentation",
+      "title": "Authentication methods at Google",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/authentication",
+      "verified": false
+    },
+    {
+      "key": "how-application-default-credentials-works",
+      "type": "documentation",
+      "title": "How Application Default Credentials works",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/authentication/application-default-credentials",
+      "verified": false
+    },
+    {
+      "key": "workload-identity-federation",
+      "type": "documentation",
+      "title": "Workload Identity Federation",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/workload-identity-federation",
+      "verified": false
+    },
+    {
+      "key": "workload-identity-federation-for-gke",
+      "type": "documentation",
+      "title": "Workload Identity Federation for GKE",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "identity-and-access"
+  }
+}

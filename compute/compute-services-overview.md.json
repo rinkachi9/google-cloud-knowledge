@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "compute.compute-services-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "compute"
+    ],
+    "aliases": [
+      "Cloud Functions",
+      "Cloud Run functions",
+      "App Engine",
+      "Batch"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.global-infrastructure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "compute.cloud-run",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "choose-a-compute-option",
+      "type": "documentation",
+      "title": "Choose a compute option",
+      "publisher": "Google Cloud Architecture Framework",
+      "url": "https://docs.cloud.google.com/architecture/framework/system-design/compute",
+      "verified": false
+    },
+    {
+      "key": "compute-engine-documentation",
+      "type": "documentation",
+      "title": "Compute Engine documentation",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/compute/docs",
+      "verified": false
+    },
+    {
+      "key": "batch-documentation",
+      "type": "documentation",
+      "title": "Batch documentation",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/batch/docs/get-started",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "compute"
+  }
+}

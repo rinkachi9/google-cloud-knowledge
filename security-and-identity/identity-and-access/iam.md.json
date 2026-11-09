@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "security-and-identity.identity-and-access.iam",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "security-and-identity",
+      "identity-and-access"
+    ],
+    "aliases": [
+      "IAM",
+      "deny policies",
+      "IAM Conditions"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.cloud-identity",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.gcloud-cli-cheatsheet",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "iam-overview",
+      "type": "documentation",
+      "title": "IAM overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "roles-and-permissions",
+      "type": "documentation",
+      "title": "Roles and permissions",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/roles-overview",
+      "verified": false
+    },
+    {
+      "key": "deny-policies",
+      "type": "documentation",
+      "title": "Deny policies",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/deny-overview",
+      "verified": false
+    },
+    {
+      "key": "iam-conditions-overview",
+      "type": "documentation",
+      "title": "IAM Conditions overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/conditions-overview",
+      "verified": false
+    },
+    {
+      "key": "use-iam-securely",
+      "type": "documentation",
+      "title": "Use IAM securely",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/iam/docs/using-iam-securely",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "identity-and-access"
+  }
+}

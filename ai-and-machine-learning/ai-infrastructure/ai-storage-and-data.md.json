@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure.ai-storage-and-data",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 3,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-infrastructure-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "storage-and-databases.cloud-storage",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-accelerators",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "design-storage-for-ai-and-ml-workloads",
+      "type": "documentation",
+      "title": "Design storage for AI and ML workloads",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/ai-ml/storage-for-ai-ml",
+      "verified": false
+    },
+    {
+      "key": "cloud-storage-fuse-performance-tuning",
+      "type": "documentation",
+      "title": "Cloud Storage FUSE performance tuning",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage/docs/cloud-storage-fuse/performance",
+      "verified": false
+    },
+    {
+      "key": "managed-lustre-overview",
+      "type": "documentation",
+      "title": "Managed Lustre overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/managed-lustre/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "hyperdisk-ml",
+      "type": "documentation",
+      "title": "Hyperdisk ML",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/compute/docs/disks/hd-types/hyperdisk-ml",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

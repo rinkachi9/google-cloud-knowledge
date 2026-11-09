@@ -1,0 +1,57 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.content-security",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ],
+    "aliases": [
+      "Cloud DLP",
+      "Sensitive Data Protection",
+      "ransomware"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.security-best-practices.securing-data",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sensitive-data-protection-overview",
+      "type": "documentation",
+      "title": "Sensitive Data Protection overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sensitive-data-protection/docs/sensitive-data-protection-overview",
+      "verified": false
+    },
+    {
+      "key": "mitigating-ransomware-attacks",
+      "type": "documentation",
+      "title": "Mitigating ransomware attacks",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/security/mitigating-ransomware-attacks",
+      "verified": false
+    },
+    {
+      "key": "safesearch-detection",
+      "type": "documentation",
+      "title": "SafeSearch detection",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vision/docs/detecting-safe-search",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "operations.cloud-logging",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "operations"
+    ]
+  },
+  "links": [
+    {
+      "to": "operations.operations-suite-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "routing-and-storage-overview",
+      "type": "documentation",
+      "title": "Routing and storage overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/logging/docs/routing/overview",
+      "verified": false
+    },
+    {
+      "key": "log-analytics",
+      "type": "documentation",
+      "title": "Log Analytics",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/logging/docs/log-analytics",
+      "verified": false
+    },
+    {
+      "key": "cloud-logging-pricing",
+      "type": "website",
+      "title": "Cloud Logging pricing",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/stackdriver/pricing",
+      "verified": false
+    },
+    {
+      "key": "logging-query-language",
+      "type": "documentation",
+      "title": "Logging query language",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/logging/docs/view/logging-query-language",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "operations"
+  }
+}

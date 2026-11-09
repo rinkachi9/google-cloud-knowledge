@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.ci-cd.cloud-build",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "developer-and-devops-tools",
+      "ci-cd"
+    ]
+  },
+  "links": [
+    {
+      "to": "developer-and-devops-tools.ci-cd.artifact-registry",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-build-overview",
+      "type": "documentation",
+      "title": "Cloud Build overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/build/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "build-configuration-file-schema",
+      "type": "documentation",
+      "title": "Build configuration file schema",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/build/docs/build-config-file-schema",
+      "verified": false
+    },
+    {
+      "key": "private-pools-overview",
+      "type": "documentation",
+      "title": "Private pools overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/build/docs/private-pools/private-pools-overview",
+      "verified": false
+    },
+    {
+      "key": "slsa",
+      "type": "website",
+      "title": "SLSA",
+      "publisher": "OpenSSF",
+      "url": "https://slsa.dev/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ci-cd"
+  }
+}

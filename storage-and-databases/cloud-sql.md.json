@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "storage-and-databases.cloud-sql",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "storage-and-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.storage-and-database-services-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-sql-overview",
+      "type": "documentation",
+      "title": "Cloud SQL overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sql/docs/introduction",
+      "verified": false
+    },
+    {
+      "key": "about-high-availability",
+      "type": "documentation",
+      "title": "About high availability",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sql/docs/postgres/high-availability",
+      "verified": false
+    },
+    {
+      "key": "cloud-sql-editions",
+      "type": "documentation",
+      "title": "Cloud SQL editions",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sql/docs/mysql/editions-intro",
+      "verified": false
+    },
+    {
+      "key": "cloud-sql-auth-proxy",
+      "type": "documentation",
+      "title": "Cloud SQL Auth Proxy",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/sql/docs/postgres/sql-proxy",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

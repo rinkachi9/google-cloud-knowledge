@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "networking.vpc.vpc-service-controls",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 7,
+    "tags": [
+      "networking",
+      "vpc"
+    ],
+    "aliases": [
+      "VPC SC",
+      "service perimeter"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-google-access",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.access-context-manager",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-security-operations-and-mlops",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "overview-of-vpc-service-controls",
+      "type": "documentation",
+      "title": "Overview of VPC Service Controls",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc-service-controls/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "ingress-and-egress-rules",
+      "type": "documentation",
+      "title": "Ingress and egress rules",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules",
+      "verified": false
+    },
+    {
+      "key": "dry-run-mode",
+      "type": "documentation",
+      "title": "Dry run mode",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc-service-controls/docs/dry-run-mode",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

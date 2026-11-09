@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.infrastructure-as-code.terraform-on-google-cloud",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "developer-and-devops-tools",
+      "infrastructure-as-code"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.threat-detection-and-posture.cft-scorecard",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "terraform-on-google-cloud",
+      "type": "documentation",
+      "title": "Terraform on Google Cloud",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/terraform",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-using-terraform",
+      "type": "documentation",
+      "title": "Best practices for using Terraform",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/terraform/best-practices/general-style-structure",
+      "verified": false
+    },
+    {
+      "key": "cloud-foundation-fabric",
+      "type": "website",
+      "title": "Cloud Foundation Fabric",
+      "publisher": "Google Cloud on GitHub",
+      "url": "https://github.com/GoogleCloudPlatform/cloud-foundation-fabric",
+      "verified": false
+    },
+    {
+      "key": "infrastructure-manager-overview",
+      "type": "documentation",
+      "title": "Infrastructure Manager overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/infrastructure-manager/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "infrastructure-as-code"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "networking.vpc.vpc-network-peering-and-shared-vpc",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "networking",
+      "vpc"
+    ],
+    "aliases": [
+      "VPC peering",
+      "Shared VPC"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-service-connect",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-network-peering",
+      "type": "documentation",
+      "title": "VPC Network Peering",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/vpc-peering",
+      "verified": false
+    },
+    {
+      "key": "shared-vpc-overview",
+      "type": "documentation",
+      "title": "Shared VPC overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/shared-vpc",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-vpc-design",
+      "type": "documentation",
+      "title": "Best practices for VPC design",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/best-practices-vpc-design",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

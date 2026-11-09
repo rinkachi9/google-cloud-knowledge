@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "storage-and-databases.cloud-storage",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "storage-and-databases"
+    ],
+    "aliases": [
+      "GCS",
+      "storage classes"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.storage-and-database-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "storage-classes",
+      "type": "documentation",
+      "title": "Storage classes",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage/docs/storage-classes",
+      "verified": true,
+      "checked": "2026-11"
+    },
+    {
+      "key": "object-lifecycle-management",
+      "type": "documentation",
+      "title": "Object Lifecycle Management",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage/docs/lifecycle",
+      "verified": false
+    },
+    {
+      "key": "cloud-storage-pricing",
+      "type": "website",
+      "title": "Cloud Storage pricing",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/storage/pricing",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-cloud-storage",
+      "type": "documentation",
+      "title": "Best practices for Cloud Storage",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage/docs/best-practices",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

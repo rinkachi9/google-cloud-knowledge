@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure.ai-accelerators",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-infrastructure-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gpu-machine-types",
+      "type": "documentation",
+      "title": "GPU machine types",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/compute/docs/gpus",
+      "verified": false
+    },
+    {
+      "key": "cloud-tpu-introduction",
+      "type": "documentation",
+      "title": "Cloud TPU introduction",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/tpu/docs/intro-to-tpu",
+      "verified": false
+    },
+    {
+      "key": "consumption-options-for-ai-hypercomputer",
+      "type": "documentation",
+      "title": "Consumption options for AI Hypercomputer",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/ai-hypercomputer/docs/consumption-models",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

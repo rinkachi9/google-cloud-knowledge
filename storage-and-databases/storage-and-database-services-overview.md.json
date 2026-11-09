@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "storage-and-databases.storage-and-database-services-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "storage-and-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.global-infrastructure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "storage-and-databases.cloud-storage",
+      "rel": "related"
+    },
+    {
+      "to": "storage-and-databases.cloud-sql",
+      "rel": "related"
+    },
+    {
+      "to": "storage-and-databases.spanner",
+      "rel": "related"
+    },
+    {
+      "to": "storage-and-databases.firestore",
+      "rel": "related"
+    },
+    {
+      "to": "storage-and-databases.bigtable",
+      "rel": "related"
+    },
+    {
+      "to": "data-analytics.bigquery",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-cloud-databases",
+      "type": "website",
+      "title": "Google Cloud databases",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/products/databases",
+      "verified": false
+    },
+    {
+      "key": "choose-a-storage-option",
+      "type": "documentation",
+      "title": "Choose a storage option",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/storage-advisor",
+      "verified": false
+    },
+    {
+      "key": "storage-transfer-service-overview",
+      "type": "documentation",
+      "title": "Storage Transfer Service overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage-transfer/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

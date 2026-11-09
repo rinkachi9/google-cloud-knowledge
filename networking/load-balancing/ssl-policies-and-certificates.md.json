@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "networking.load-balancing.ssl-policies-and-certificates",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "networking",
+      "load-balancing"
+    ],
+    "aliases": [
+      "TLS",
+      "SSL policies"
+    ]
+  },
+  "sources": [
+    {
+      "key": "ssl-policies-overview",
+      "type": "documentation",
+      "title": "SSL policies overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/ssl-policies-concepts",
+      "verified": false
+    },
+    {
+      "key": "ssl-certificates-overview",
+      "type": "documentation",
+      "title": "SSL certificates overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/ssl-certificates",
+      "verified": false
+    },
+    {
+      "key": "certificate-manager-overview",
+      "type": "documentation",
+      "title": "Certificate Manager overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/certificate-manager/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "load-balancing"
+  }
+}

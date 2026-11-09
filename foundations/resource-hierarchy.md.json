@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "foundations.resource-hierarchy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "foundations"
+    ],
+    "aliases": [
+      "organization",
+      "folders",
+      "projects"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "operations.cloud-logging",
+      "rel": "related"
+    },
+    {
+      "to": "developer-and-devops-tools.infrastructure-as-code.terraform-on-google-cloud",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "resource-hierarchy",
+      "type": "documentation",
+      "title": "Resource hierarchy",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy",
+      "verified": false
+    },
+    {
+      "key": "decide-a-resource-hierarchy-for-your-landing-zone",
+      "type": "documentation",
+      "title": "Decide a resource hierarchy for your landing zone",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/landing-zones/decide-resource-hierarchy",
+      "verified": false
+    },
+    {
+      "key": "organization-policy-service-overview",
+      "type": "documentation",
+      "title": "Organization Policy Service overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

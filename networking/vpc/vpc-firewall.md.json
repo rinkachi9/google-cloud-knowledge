@@ -1,0 +1,65 @@
+{
+  "node": {
+    "id": "networking.vpc.vpc-firewall",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "networking",
+      "vpc"
+    ],
+    "aliases": [
+      "firewall rules",
+      "firewall policies",
+      "Cloud NGFW"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.network-intelligence-center",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-firewall-rules",
+      "type": "documentation",
+      "title": "VPC firewall rules",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firewall/docs/firewalls",
+      "verified": false
+    },
+    {
+      "key": "firewall-policies-overview",
+      "type": "documentation",
+      "title": "Firewall policies overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firewall/docs/firewall-policies-overview",
+      "verified": false
+    },
+    {
+      "key": "cloud-ngfw-overview",
+      "type": "documentation",
+      "title": "Cloud NGFW overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/firewall/docs/about-firewalls",
+      "verified": false
+    },
+    {
+      "key": "health-checks-overview-firewall-rules",
+      "type": "documentation",
+      "title": "Health checks overview: firewall rules",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/health-check-concepts",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

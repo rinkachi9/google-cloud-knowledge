@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "data-analytics",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "data-analytics"
+    ]
+  },
+  "map": {
+    "group": "data-analytics"
+  }
+}

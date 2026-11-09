@@ -1,0 +1,55 @@
+{
+  "node": {
+    "id": "security-and-identity.security-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "security-and-identity"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.resource-hierarchy",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.security-best-practices.securing-data",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.security-best-practices.securing-applications",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-infrastructure-security-design-overview",
+      "type": "documentation",
+      "title": "Google infrastructure security design overview",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/docs/security/infrastructure/design",
+      "verified": false
+    },
+    {
+      "key": "shared-responsibilities-and-shared-fate",
+      "type": "documentation",
+      "title": "Shared responsibilities and shared fate",
+      "publisher": "Google Cloud Architecture Framework",
+      "url": "https://docs.cloud.google.com/architecture/framework/security/shared-responsibility-shared-fate",
+      "verified": false
+    },
+    {
+      "key": "google-cloud-security-foundations-guide",
+      "type": "documentation",
+      "title": "Google Cloud security foundations guide",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/security-foundations",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-and-identity"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "networking.google-cloud-networking-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "networking"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.global-infrastructure",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "related"
+    },
+    {
+      "to": "networking.hybrid-connectivity.cloud-interconnect",
+      "rel": "related"
+    },
+    {
+      "to": "networking.hybrid-connectivity.cloud-vpn",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-overview",
+      "type": "documentation",
+      "title": "VPC overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "hybrid-and-multicloud-architecture-patterns",
+      "type": "documentation",
+      "title": "Hybrid and multicloud architecture patterns",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/hybrid-multicloud-patterns-and-practices",
+      "verified": false
+    },
+    {
+      "key": "cloud-cdn-overview",
+      "type": "documentation",
+      "title": "Cloud CDN overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/cdn/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "networking"
+  }
+}

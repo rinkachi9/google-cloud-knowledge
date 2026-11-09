@@ -1,0 +1,51 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ml-development-options",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "ai-and-machine-learning"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-and-ml-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.vertex-ai-automl",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "choose-a-model-development-approach",
+      "type": "documentation",
+      "title": "Choose a model development approach",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/start/training-methods",
+      "verified": false
+    },
+    {
+      "key": "bigquery-ml-introduction",
+      "type": "documentation",
+      "title": "BigQuery ML introduction",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/bigquery/docs/bqml-introduction",
+      "verified": false
+    },
+    {
+      "key": "ai-apis",
+      "type": "website",
+      "title": "AI APIs",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/products/ai#ai-apis",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-and-machine-learning"
+  }
+}

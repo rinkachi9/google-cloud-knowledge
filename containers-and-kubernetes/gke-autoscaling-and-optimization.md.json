@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.gke-autoscaling-and-optimization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "containers-and-kubernetes"
+    ]
+  },
+  "links": [
+    {
+      "to": "compute.compute-services-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "about-gke-cluster-autoscaling",
+      "type": "documentation",
+      "title": "About GKE cluster autoscaling",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler",
+      "verified": false
+    },
+    {
+      "key": "horizontal-pod-autoscaling",
+      "type": "documentation",
+      "title": "Horizontal Pod autoscaling",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-running-cost-optimized-kubernetes-applica",
+      "type": "documentation",
+      "title": "Best practices for running cost-optimized Kubernetes applications on GKE",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/best-practices-for-running-cost-effective-kubernetes-applications-on-gke",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "containers-and-kubernetes"
+  }
+}

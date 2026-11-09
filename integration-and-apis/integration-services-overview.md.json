@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "integration-and-apis.integration-services-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "integration-and-apis"
+    ]
+  },
+  "links": [
+    {
+      "to": "compute.compute-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "integration-and-apis.apigee",
+      "rel": "related"
+    },
+    {
+      "to": "data-analytics.data-analytics-services-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "choose-cloud-tasks-or-pub-sub",
+      "type": "documentation",
+      "title": "Choose Cloud Tasks or Pub/Sub",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/tasks/docs/comp-pub-sub",
+      "verified": false
+    },
+    {
+      "key": "eventarc-overview",
+      "type": "documentation",
+      "title": "Eventarc overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/eventarc/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "workflows-overview",
+      "type": "documentation",
+      "title": "Workflows overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/workflows/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "api-gateway-overview",
+      "type": "documentation",
+      "title": "API Gateway overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/about-api-gateway",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "integration-and-apis"
+  }
+}

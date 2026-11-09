@@ -1,0 +1,36 @@
+{
+  "node": {
+    "id": "security-and-identity.identity-and-access.managed-microsoft-ad",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "security-and-identity",
+      "identity-and-access"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.identity-and-access.cloud-identity",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.google-cloud-directory-sync",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "managed-service-for-microsoft-active-directory-overview",
+      "type": "documentation",
+      "title": "Managed Service for Microsoft Active Directory overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/managed-microsoft-ad/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "identity-and-access"
+  }
+}

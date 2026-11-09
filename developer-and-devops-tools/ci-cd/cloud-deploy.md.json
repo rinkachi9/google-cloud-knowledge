@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.ci-cd.cloud-deploy",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "developer-and-devops-tools",
+      "ci-cd"
+    ]
+  },
+  "links": [
+    {
+      "to": "developer-and-devops-tools.ci-cd.cloud-build",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "developer-and-devops-tools.ci-cd.artifact-registry",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-deploy-overview",
+      "type": "documentation",
+      "title": "Cloud Deploy overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/deploy/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "deployment-strategies",
+      "type": "documentation",
+      "title": "Deployment strategies",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/deploy/docs/deployment-strategies",
+      "verified": false
+    },
+    {
+      "key": "skaffold-documentation",
+      "type": "website",
+      "title": "Skaffold documentation",
+      "publisher": "Skaffold project",
+      "url": "https://skaffold.dev/docs/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ci-cd"
+  }
+}

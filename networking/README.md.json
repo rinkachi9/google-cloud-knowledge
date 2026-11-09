@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "networking",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "networking"
+    ]
+  },
+  "map": {
+    "group": "networking"
+  }
+}

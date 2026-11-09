@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "networking.vpc.vpc-networks",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "networking",
+      "vpc"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.google-cloud-networking-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-google-access",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-network-peering-and-shared-vpc",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-flow-logs",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-networks",
+      "type": "documentation",
+      "title": "VPC networks",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/vpc",
+      "verified": false
+    },
+    {
+      "key": "subnets",
+      "type": "documentation",
+      "title": "Subnets",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/subnets",
+      "verified": false
+    },
+    {
+      "key": "best-practices-and-reference-architectures-for-vpc-design",
+      "type": "documentation",
+      "title": "Best practices and reference architectures for VPC design",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/best-practices-vpc-design",
+      "verified": false
+    },
+    {
+      "key": "cloud-nat-overview",
+      "type": "documentation",
+      "title": "Cloud NAT overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/nat/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

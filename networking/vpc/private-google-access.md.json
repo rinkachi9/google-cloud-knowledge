@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "networking.vpc.private-google-access",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "networking",
+      "vpc"
+    ],
+    "aliases": [
+      "PGA"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-service-connect",
+      "rel": "related"
+    },
+    {
+      "to": "networking.vpc.vpc-service-controls",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "private-google-access",
+      "type": "documentation",
+      "title": "Private Google Access",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/private-google-access",
+      "verified": false
+    },
+    {
+      "key": "configure-private-google-access",
+      "type": "documentation",
+      "title": "Configure Private Google Access",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/configure-private-google-access",
+      "verified": false
+    },
+    {
+      "key": "private-access-options-for-services",
+      "type": "documentation",
+      "title": "Private access options for services",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/vpc/docs/private-access-options",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

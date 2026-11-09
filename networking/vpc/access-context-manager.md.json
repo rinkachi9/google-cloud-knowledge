@@ -1,0 +1,52 @@
+{
+  "node": {
+    "id": "networking.vpc.access-context-manager",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 8,
+    "tags": [
+      "networking",
+      "vpc"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-service-controls",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "access-context-manager-overview",
+      "type": "documentation",
+      "title": "Access Context Manager overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/access-context-manager/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "create-a-basic-access-level",
+      "type": "documentation",
+      "title": "Create a basic access level",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/access-context-manager/docs/create-basic-access-level",
+      "verified": false
+    },
+    {
+      "key": "endpoint-verification-overview",
+      "type": "documentation",
+      "title": "Endpoint Verification overview",
+      "publisher": "Google Workspace Admin Help",
+      "url": "https://support.google.com/a/answer/9007320",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "vpc"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "storage-and-databases.spanner",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 4,
+    "tags": [
+      "storage-and-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.cloud-sql",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "spanner-overview",
+      "type": "documentation",
+      "title": "Spanner overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/spanner/docs",
+      "verified": false
+    },
+    {
+      "key": "schema-design-best-practices",
+      "type": "documentation",
+      "title": "Schema design best practices",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/spanner/docs/schema-design",
+      "verified": false
+    },
+    {
+      "key": "spanner-google-s-globally-distributed-database",
+      "type": "paper",
+      "title": "Spanner: Google's Globally-Distributed Database",
+      "publisher": "Corbett and others",
+      "url": "https://research.google/pubs/spanner-googles-globally-distributed-database-2/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "storage-and-databases"
+  }
+}

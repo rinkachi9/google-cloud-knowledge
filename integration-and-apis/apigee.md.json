@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "integration-and-apis.apigee",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "integration-and-apis"
+    ]
+  },
+  "links": [
+    {
+      "to": "integration-and-apis.integration-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-network-peering-and-shared-vpc",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.private-service-connect",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.load-balancing.application-load-balancers",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "apigee-overview",
+      "type": "documentation",
+      "title": "Apigee overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/apigee/docs/api-platform/get-started/what-apigee",
+      "verified": false
+    },
+    {
+      "key": "apigee-x-networking-options",
+      "type": "documentation",
+      "title": "Apigee X networking options",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/apigee/docs/api-platform/get-started/networking-options",
+      "verified": false
+    },
+    {
+      "key": "policy-reference",
+      "type": "documentation",
+      "title": "Policy reference",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/apigee/docs/api-platform/reference/policies/reference-overview-policy",
+      "verified": false
+    },
+    {
+      "key": "apigee-hybrid-overview",
+      "type": "documentation",
+      "title": "Apigee hybrid overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/apigee/docs/hybrid/latest/what-is-hybrid",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "integration-and-apis"
+  }
+}

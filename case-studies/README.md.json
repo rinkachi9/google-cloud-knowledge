@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "case-studies",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "case-studies"
+    ]
+  },
+  "map": {
+    "group": "case-studies"
+  }
+}

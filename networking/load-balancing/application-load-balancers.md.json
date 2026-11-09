@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "networking.load-balancing.application-load-balancers",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "networking",
+      "load-balancing"
+    ],
+    "aliases": [
+      "ALB",
+      "HTTPS load balancer",
+      "URL map"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.vpc.vpc-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.load-balancing.ssl-policies-and-certificates",
+      "rel": "related"
+    },
+    {
+      "to": "networking.load-balancing.network-load-balancers",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "application-load-balancer-overview",
+      "type": "documentation",
+      "title": "Application Load Balancer overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/application-load-balancer",
+      "verified": false
+    },
+    {
+      "key": "url-maps-overview",
+      "type": "documentation",
+      "title": "URL maps overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/url-map-concepts",
+      "verified": false
+    },
+    {
+      "key": "network-endpoint-groups-overview",
+      "type": "documentation",
+      "title": "Network endpoint groups overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/negs",
+      "verified": false
+    },
+    {
+      "key": "choose-a-load-balancer",
+      "type": "documentation",
+      "title": "Choose a load balancer",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/choosing-load-balancer",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "load-balancing"
+  }
+}

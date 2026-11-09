@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "containers-and-kubernetes"
+    ]
+  },
+  "map": {
+    "group": "containers-and-kubernetes"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "foundations.global-infrastructure",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "foundations"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "geography-and-regions",
+      "type": "documentation",
+      "title": "Geography and regions",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/docs/geography-and-regions",
+      "verified": false
+    },
+    {
+      "key": "global-locations",
+      "type": "website",
+      "title": "Global locations",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/about/locations",
+      "verified": false
+    },
+    {
+      "key": "network-service-tiers-overview",
+      "type": "documentation",
+      "title": "Network Service Tiers overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/network-tiers/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

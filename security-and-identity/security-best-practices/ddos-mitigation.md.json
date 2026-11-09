@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.ddos-mitigation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ],
+    "aliases": [
+      "Cloud Armor",
+      "DDoS"
+    ]
+  },
+  "links": [
+    {
+      "to": "networking.load-balancing.application-load-balancers",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-firewall",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-armor-overview",
+      "type": "documentation",
+      "title": "Cloud Armor overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/armor/docs/cloud-armor-overview",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-ddos-protection-and-mitigation",
+      "type": "report",
+      "title": "Best practices for DDoS protection and mitigation",
+      "publisher": "Google Cloud whitepaper",
+      "url": "https://cloud.google.com/files/GCPDDoSprotection-04122016.pdf",
+      "verified": false
+    },
+    {
+      "key": "google-mitigated-the-largest-ddos-attack-to-date-peaking-abo",
+      "type": "website",
+      "title": "Google mitigated the largest DDoS attack to date, peaking above 398 million rps",
+      "publisher": "Google Cloud blog",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps",
+      "verified": false
+    },
+    {
+      "key": "cve-2023-44487",
+      "type": "standard",
+      "title": "CVE-2023-44487",
+      "publisher": "NIST NVD",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44487",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}

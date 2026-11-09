@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.gke-security",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "containers-and-kubernetes",
+      "gke-security"
+    ]
+  },
+  "map": {
+    "group": "gke-security"
+  }
+}

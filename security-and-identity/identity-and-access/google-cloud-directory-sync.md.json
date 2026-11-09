@@ -1,0 +1,43 @@
+{
+  "node": {
+    "id": "security-and-identity.identity-and-access.google-cloud-directory-sync",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "security-and-identity",
+      "identity-and-access"
+    ],
+    "aliases": [
+      "GCDS"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.identity-and-access.cloud-identity",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "about-google-cloud-directory-sync",
+      "type": "documentation",
+      "title": "About Google Cloud Directory Sync",
+      "publisher": "Google Workspace Admin Help",
+      "url": "https://support.google.com/a/answer/106368",
+      "verified": false
+    },
+    {
+      "key": "federating-google-cloud-with-active-directory",
+      "type": "documentation",
+      "title": "Federating Google Cloud with Active Directory",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/identity/federating-gcp-with-active-directory-introduction",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "identity-and-access"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "data-analytics.data-analytics-services-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "data-analytics"
+    ],
+    "aliases": [
+      "Data Catalog",
+      "Dataplex",
+      "Dataflow",
+      "Dataproc",
+      "Pub/Sub",
+      "Looker"
+    ]
+  },
+  "links": [
+    {
+      "to": "storage-and-databases.storage-and-database-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "data-analytics.bigquery",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "data-analytics-products",
+      "type": "website",
+      "title": "Data analytics products",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/solutions/data-analytics-and-ai",
+      "verified": false
+    },
+    {
+      "key": "pub-sub-overview",
+      "type": "documentation",
+      "title": "Pub/Sub overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/pubsub/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "dataflow-overview",
+      "type": "documentation",
+      "title": "Dataflow overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/dataflow/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "dataplex-universal-catalog-overview",
+      "type": "documentation",
+      "title": "Dataplex Universal Catalog overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/dataplex/docs/introduction",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "data-analytics"
+  }
+}

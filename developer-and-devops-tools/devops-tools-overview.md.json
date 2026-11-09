@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "developer-and-devops-tools.devops-tools-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "developer-and-devops-tools"
+    ],
+    "aliases": [
+      "Cloud Source Repositories",
+      "Cloud Scheduler",
+      "Cloud Tasks",
+      "Skaffold"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "developer-and-devops-tools.ci-cd.cloud-build",
+      "rel": "related"
+    },
+    {
+      "to": "developer-and-devops-tools.ci-cd.artifact-registry",
+      "rel": "related"
+    },
+    {
+      "to": "developer-and-devops-tools.ci-cd.cloud-deploy",
+      "rel": "related"
+    },
+    {
+      "to": "integration-and-apis.integration-services-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "software-delivery-on-google-cloud",
+      "type": "website",
+      "title": "Software delivery on Google Cloud",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/solutions/software-delivery",
+      "verified": false
+    },
+    {
+      "key": "dora-research",
+      "type": "website",
+      "title": "DORA research",
+      "publisher": "DORA",
+      "url": "https://dora.dev/",
+      "verified": false
+    },
+    {
+      "key": "cloud-tasks-overview",
+      "type": "documentation",
+      "title": "Cloud Tasks overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/tasks/docs/dual-overview",
+      "verified": false
+    },
+    {
+      "key": "cloud-scheduler-overview",
+      "type": "documentation",
+      "title": "Cloud Scheduler overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/scheduler/docs/overview",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "developer-and-devops-tools"
+  }
+}

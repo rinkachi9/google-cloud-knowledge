@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

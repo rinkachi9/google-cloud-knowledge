@@ -1,0 +1,80 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure.ai-infrastructure-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-and-ml-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "compute.compute-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "compute.cloud-run",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-accelerators",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-storage-and-data",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-training-and-inference-patterns",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-security-operations-and-mlops",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "ai-hypercomputer-overview",
+      "type": "documentation",
+      "title": "AI Hypercomputer overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/ai-hypercomputer/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "vertex-ai-training-overview",
+      "type": "documentation",
+      "title": "Vertex AI training overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/training/overview",
+      "verified": false
+    },
+    {
+      "key": "ai-ml-on-gke",
+      "type": "documentation",
+      "title": "AI/ML on GKE",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/integrations/ai-infra",
+      "verified": false
+    },
+    {
+      "key": "ai-and-ml-resources",
+      "type": "documentation",
+      "title": "AI and ML resources",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/ai-ml",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

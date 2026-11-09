@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-and-ml-services-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "ai-and-machine-learning"
+    ],
+    "aliases": [
+      "Vertex AI",
+      "Gemini Enterprise Agent Platform",
+      "Generative AI Studio",
+      "Agent Studio",
+      "Model Garden"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-and-machine-learning.vertex-ai-automl",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-accelerators",
+      "rel": "related"
+    },
+    {
+      "to": "ai-and-machine-learning.ml-development-options",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vertex-ai-overview",
+      "type": "documentation",
+      "title": "Vertex AI overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning",
+      "verified": false
+    },
+    {
+      "key": "model-garden-overview",
+      "type": "documentation",
+      "title": "Model Garden overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/explore-models",
+      "verified": false
+    },
+    {
+      "key": "ai-and-machine-learning-products",
+      "type": "website",
+      "title": "AI and machine learning products",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/products/ai",
+      "verified": false
+    },
+    {
+      "key": "gemini-enterprise-agent-platform-release-notes",
+      "type": "documentation",
+      "title": "Gemini Enterprise Agent Platform release notes",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes",
+      "verified": true,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "ai-and-machine-learning"
+  }
+}

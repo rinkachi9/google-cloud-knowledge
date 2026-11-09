@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.ai-infrastructure.ai-security-operations-and-mlops",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 5,
+    "tags": [
+      "ai-and-machine-learning",
+      "ai-infrastructure"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ai-infrastructure.ai-training-and-inference-patterns",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "networking.vpc.vpc-service-controls",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.service-accounts",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "vpc-service-controls-with-vertex-ai",
+      "type": "documentation",
+      "title": "VPC Service Controls with Vertex AI",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/general/vpc-service-controls",
+      "verified": false
+    },
+    {
+      "key": "model-armor-overview",
+      "type": "documentation",
+      "title": "Model Armor overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/security-command-center/docs/model-armor-overview",
+      "verified": false
+    },
+    {
+      "key": "mlops-continuous-delivery-and-automation-pipelines-in-machin",
+      "type": "documentation",
+      "title": "MLOps: continuous delivery and automation pipelines in machine learning",
+      "publisher": "Google Cloud Architecture Center",
+      "url": "https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+      "verified": false
+    },
+    {
+      "key": "monitor-gpu-performance",
+      "type": "documentation",
+      "title": "Monitor GPU performance",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/compute/docs/gpus/monitor-gpus",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-infrastructure"
+  }
+}

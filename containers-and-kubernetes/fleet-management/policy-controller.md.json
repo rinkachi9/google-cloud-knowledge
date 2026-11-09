@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.fleet-management.policy-controller",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "containers-and-kubernetes",
+      "fleet-management"
+    ],
+    "aliases": [
+      "OPA Gatekeeper",
+      "Open Policy Agent",
+      "Rego"
+    ]
+  },
+  "links": [
+    {
+      "to": "containers-and-kubernetes.fleet-management.gke-fleet-and-hub",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "policy-controller-overview",
+      "type": "documentation",
+      "title": "Policy Controller overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/enterprise/policy-controller/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "opa-gatekeeper-documentation",
+      "type": "website",
+      "title": "OPA Gatekeeper documentation",
+      "publisher": "Open Policy Agent project",
+      "url": "https://open-policy-agent.github.io/gatekeeper/website/docs/",
+      "verified": false
+    },
+    {
+      "key": "rego-policy-language",
+      "type": "website",
+      "title": "Rego policy language",
+      "publisher": "Open Policy Agent project",
+      "url": "https://www.openpolicyagent.org/docs/latest/policy-language/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fleet-management"
+  }
+}

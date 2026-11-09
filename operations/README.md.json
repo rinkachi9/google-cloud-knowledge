@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "operations",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "operations"
+    ]
+  },
+  "map": {
+    "group": "operations"
+  }
+}

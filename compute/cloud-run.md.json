@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "compute.cloud-run",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "compute"
+    ]
+  },
+  "links": [
+    {
+      "to": "compute.compute-services-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "security-and-identity.identity-and-access.service-accounts",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "cloud-run-quotas-and-limits",
+      "type": "documentation",
+      "title": "Cloud Run quotas and limits",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/quotas",
+      "verified": true,
+      "checked": "2026-11"
+    },
+    {
+      "key": "gpu-support-for-services",
+      "type": "documentation",
+      "title": "GPU support for services",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/docs/configuring/services/gpu",
+      "verified": true,
+      "checked": "2026-11"
+    },
+    {
+      "key": "rollbacks-gradual-rollouts-and-traffic-migration",
+      "type": "documentation",
+      "title": "Rollbacks, gradual rollouts and traffic migration",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration",
+      "verified": false
+    },
+    {
+      "key": "authenticating-service-to-service",
+      "type": "documentation",
+      "title": "Authenticating service-to-service",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/docs/authenticating/service-to-service",
+      "verified": false
+    },
+    {
+      "key": "container-runtime-contract",
+      "type": "documentation",
+      "title": "Container runtime contract",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/run/docs/container-contract",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "compute"
+  }
+}

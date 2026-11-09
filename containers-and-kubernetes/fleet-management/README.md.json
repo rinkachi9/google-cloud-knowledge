@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.fleet-management",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "containers-and-kubernetes",
+      "fleet-management"
+    ]
+  },
+  "map": {
+    "group": "fleet-management"
+  }
+}

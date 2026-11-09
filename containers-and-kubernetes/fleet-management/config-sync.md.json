@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.fleet-management.config-sync",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "containers-and-kubernetes",
+      "fleet-management"
+    ],
+    "aliases": [
+      "Anthos Config Management",
+      "GitOps",
+      "RootSync"
+    ]
+  },
+  "links": [
+    {
+      "to": "containers-and-kubernetes.fleet-management.gke-fleet-and-hub",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "config-sync-overview",
+      "type": "documentation",
+      "title": "Config Sync overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/enterprise/config-sync/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "rootsync-and-reposync-fields",
+      "type": "documentation",
+      "title": "RootSync and RepoSync fields",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/enterprise/config-sync/docs/reference/rootsync-reposync-fields",
+      "verified": false
+    },
+    {
+      "key": "opengitops-principles",
+      "type": "website",
+      "title": "OpenGitOps principles",
+      "publisher": "CNCF OpenGitOps project",
+      "url": "https://opengitops.dev/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "fleet-management"
+  }
+}

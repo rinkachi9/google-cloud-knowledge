@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "operations.operations-suite-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "operations"
+    ],
+    "aliases": [
+      "Operations Suite",
+      "Stackdriver",
+      "Cloud Monitoring",
+      "Cloud Trace",
+      "Cloud Profiler"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.google-cloud-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "operations.cloud-logging",
+      "rel": "related"
+    },
+    {
+      "to": "security-and-identity.security-best-practices.security-monitoring-and-auditing",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "google-cloud-observability-overview",
+      "type": "documentation",
+      "title": "Google Cloud Observability overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/stackdriver/docs",
+      "verified": false
+    },
+    {
+      "key": "service-monitoring-and-slos",
+      "type": "documentation",
+      "title": "Service monitoring and SLOs",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring",
+      "verified": false
+    },
+    {
+      "key": "site-reliability-engineering-service-level-objectives",
+      "type": "website",
+      "title": "Site Reliability Engineering: Service Level Objectives",
+      "publisher": "Google SRE book",
+      "url": "https://sre.google/sre-book/service-level-objectives/",
+      "verified": false
+    },
+    {
+      "key": "ops-agent-overview",
+      "type": "documentation",
+      "title": "Ops Agent overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/stackdriver/docs/solutions/agents/ops-agent",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "operations"
+  }
+}

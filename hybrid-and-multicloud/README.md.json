@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "hybrid-and-multicloud",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "hybrid-and-multicloud"
+    ]
+  },
+  "map": {
+    "group": "hybrid-and-multicloud"
+  }
+}

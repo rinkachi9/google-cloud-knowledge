@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "containers-and-kubernetes.gke-security.binary-authorization",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "containers-and-kubernetes",
+      "gke-security"
+    ]
+  },
+  "links": [
+    {
+      "to": "developer-and-devops-tools.ci-cd.artifact-registry",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "developer-and-devops-tools.ci-cd.cloud-build",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "containers-and-kubernetes.gke-security.gke-security-hardening",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "binary-authorization-overview",
+      "type": "documentation",
+      "title": "Binary Authorization overview",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/binary-authorization/docs/overview",
+      "verified": false
+    },
+    {
+      "key": "grafeas",
+      "type": "website",
+      "title": "Grafeas",
+      "publisher": "Grafeas project",
+      "url": "https://grafeas.io/",
+      "verified": false
+    },
+    {
+      "key": "kubernetes-admission-controllers",
+      "type": "documentation",
+      "title": "Kubernetes admission controllers",
+      "publisher": "Kubernetes documentation",
+      "url": "https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "gke-security"
+  }
+}

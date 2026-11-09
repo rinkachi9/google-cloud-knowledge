@@ -1,0 +1,50 @@
+{
+  "node": {
+    "id": "ai-and-machine-learning.vertex-ai-automl",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "ai-and-machine-learning"
+    ],
+    "aliases": [
+      "AutoML"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-and-machine-learning.ml-development-options",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "automl-beginner-s-guide",
+      "type": "documentation",
+      "title": "AutoML beginner's guide",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/beginner/beginners-guide",
+      "verified": false
+    },
+    {
+      "key": "vertex-ai-pricing",
+      "type": "website",
+      "title": "Vertex AI pricing",
+      "publisher": "Google Cloud",
+      "url": "https://cloud.google.com/vertex-ai/pricing",
+      "verified": false
+    },
+    {
+      "key": "learning-transferable-architectures-for-scalable-image-recog",
+      "type": "paper",
+      "title": "Learning Transferable Architectures for Scalable Image Recognition",
+      "publisher": "Zoph and others",
+      "url": "https://arxiv.org/abs/1707.07012",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "ai-and-machine-learning"
+  }
+}

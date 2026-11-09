@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "networking.vpc",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "networking",
+      "vpc"
+    ]
+  },
+  "map": {
+    "group": "vpc"
+  }
+}

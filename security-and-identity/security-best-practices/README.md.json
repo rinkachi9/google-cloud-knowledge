@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ]
+  },
+  "map": {
+    "group": "security-best-practices"
+  }
+}

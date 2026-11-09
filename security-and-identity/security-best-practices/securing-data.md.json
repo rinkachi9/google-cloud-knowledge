@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "security-and-identity.security-best-practices.securing-data",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "security-and-identity",
+      "security-best-practices"
+    ]
+  },
+  "links": [
+    {
+      "to": "security-and-identity.identity-and-access.iam",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "storage-and-databases.cloud-storage",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "data-analytics.bigquery",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "default-encryption-at-rest",
+      "type": "documentation",
+      "title": "Default encryption at rest",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/docs/security/encryption/default-encryption",
+      "verified": false
+    },
+    {
+      "key": "customer-managed-encryption-keys",
+      "type": "documentation",
+      "title": "Customer-managed encryption keys",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kms/docs/cmek",
+      "verified": false
+    },
+    {
+      "key": "cloud-external-key-manager",
+      "type": "documentation",
+      "title": "Cloud External Key Manager",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/kms/docs/ekm",
+      "verified": false
+    },
+    {
+      "key": "best-practices-for-cloud-storage-security",
+      "type": "documentation",
+      "title": "Best practices for Cloud Storage security",
+      "publisher": "Google Cloud documentation",
+      "url": "https://docs.cloud.google.com/storage/docs/best-practices#security",
+      "verified": false
+    }
+  ],
+  "map": {
+    "group": "security-best-practices"
+  }
+}
